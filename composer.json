@@ -1,8 +1,21 @@
 {
     "name": "anas/packge-test",
-    "description": "A Laravel package for custom console commands.",
+    "description": "A Laravel package for generating CRUD operations and managing model relationships",
     "type": "library",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Anas",
+            "email": "your-email@example.com"
+        }
+    ],
+    "keywords": [
+        "laravel",
+        "crud",
+        "generator",
+        "model",
+        "relationships"
+    ],
     "autoload": {
         "psr-4": {
             "PackgeTest\\": "src/"
@@ -17,12 +30,8 @@
     },
     "require": {
         "php": ">=8.0",
-        "illuminate/support": "^8.0|^9.0|^10.0"
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0"
     },
-    "repositories": {
-        "packge-test": {
-            "type": "path",
-            "url": "https://github.com/anasnashat/test-command-packge.git"
-        }
-    }
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
