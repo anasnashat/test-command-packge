@@ -31,8 +31,8 @@
     },
     "require": {
         "php": ">=8.0",
-        "illuminate/support": "*"
+        "laravel/framework": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
