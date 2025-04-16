@@ -1,6 +1,7 @@
 {
     "name": "anas/packge-test",
     "description": "A Laravel package for generating CRUD operations and managing model relationships",
+    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -32,6 +33,6 @@
         "php": ">=8.0",
         "illuminate/support": "^8.0|^9.0|^10.0|^11.0"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
