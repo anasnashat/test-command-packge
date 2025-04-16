@@ -1,0 +1,22 @@
+{
+    "name": "anas/packge-test",
+    "description": "A Laravel package for custom console commands.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PackgeTest\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PackgeTest\\PackgeTestServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    }
+}
